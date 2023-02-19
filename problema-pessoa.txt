@@ -1,0 +1,11 @@
+fazer um programa para gerenciar varias pessoas
+com o programa deve ser possivel realizar as seguintes operacoes
+1. inserir uma pessoa
+2. remover uma pessoa pelo nome
+3. alterar os dados de uma pessoa pelo nome
+4. listar todas as pessoas
+5. listar as pessoas dado parte do nome das pessoas
+
+para cada pessoa temos:
+  nome, idade, peso e altura.
+

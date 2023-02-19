@@ -1,0 +1,2463 @@
+
+//***Saída 1
+
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    cout << "---------------------------------------" << endl;
+    cout << "|                                     |"<< endl;
+    cout << "|                                     |"<< endl;
+    cout << "|                                     |"<< endl;
+    cout << "|                                     |"<< endl;
+    cout << "|                                     |"<< endl;
+    cout << "---------------------------------------" << endl;
+    return 0;
+}
+
+//*****Saída 2
+
+#include <iostream>
+#include<iomanip>
+using namespace std;
+ 
+int main() {
+ 
+    cout << "---------------------------------------"<< endl;
+    cout << "|        Roberto                      |"<< endl;
+    cout << "|                                     |"<< endl;
+    cout << "|        5786                         |"<< endl;
+    cout << "|                                     |"<< endl;
+    cout << "|        UNIFEI                       |"<< endl;
+    cout << "---------------------------------------"<< endl;
+ 
+    return 0;
+}
+
+/*****Saída 3
+
+#include <iostream>
+ #include<iomanip> 
+using namespace std;
+ 
+int main() {
+ 
+    cout << "-" << setfill('-')<< setw(38) << "-"<<endl;
+    cout << "|x = 35"<< setfill(' ') << setw(32)<<"|"<< endl;
+    cout << "|" << setfill(' ')<< setw(38) << "|"<<endl;
+    cout << "|               x = 35                |"<< endl;
+    cout << "|" << setfill(' ')<< setw(38) << "|"<<endl;
+    cout << "|                               x = 35|"<< endl;
+    cout << "-" << setfill('-')<< setw(38) << "-"<<endl;
+ 
+    return 0;
+}
+
+//*****Saída 4
+
+#include <iostream>
+  #include<iomanip> 
+using namespace std;
+ 
+int main() {
+ 
+    cout << setfill('-')<<setw(39)<< "-" <<endl;
+    cout<< "|  decimal  |  octal  |  Hexadecimal  |"<< endl;
+    cout << setfill('-')<<setw(39)<< "-" <<endl;
+    cout<< "|      0    |    0    |       0       |"<< endl;
+    cout<< "|      1    |    1    |       1       |"<< endl;
+    cout<< "|      2    |    2    |       2       |"<< endl;
+    cout<< "|      3    |    3    |       3       |"<< endl;
+    cout<< "|      4    |    4    |       4       |"<< endl;
+    cout<< "|      5    |    5    |       5       |"<< endl;
+    cout<< "|      6    |    6    |       6       |"<< endl;
+    cout<< "|      7    |    7    |       7       |"<< endl;
+    cout<< "|      8    |   10    |       8       |"<< endl;
+    cout<< "|      9    |   11    |       9       |"<< endl;
+    cout<< "|     10    |   12    |       A       |"<< endl;
+    cout<< "|     11    |   13    |       B       |"<< endl;
+    cout<< "|     12    |   14    |       C       |"<< endl;
+    cout<< "|     13    |   15    |       D       |"<< endl;
+    cout<< "|     14    |   16    |       E       |"<< endl;
+    cout<< "|     15    |   17    |       F       |"<< endl;
+    cout << setfill('-')<<setw(39)<< "-" <<endl;
+    
+    return 0;
+}
+
+//******Saída 6
+
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    cout << "<AMO FAZER EXERCICIO NO URI>" << endl;
+    cout << "<    AMO FAZER EXERCICIO NO URI>"<< endl;
+    cout << "<AMO FAZER EXERCICIO >" << endl;
+    cout << "<AMO FAZER EXERCICIO NO URI>" << endl;
+    cout << "<AMO FAZER EXERCICIO NO URI    >" << endl;
+    cout << "<AMO FAZER EXERCICIO NO URI>" << endl;
+    cout << "<          AMO FAZER EXERCICIO >" << endl;
+    cout << "<AMO FAZER EXERCICIO           >" << endl;
+ 
+    return 0;
+}
+
+//*****Saída 7
+
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    int a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z;
+    a=97;
+    b=a+1;
+    c=b+1;
+    d=c+1;
+    e=d+1;
+    f=e+1;
+    g=f+1;
+    h=g+1;
+    i=h+1;
+    j=i+1;
+    k=j+1;
+    l=k+1;
+    m=l+1;
+    n=m+1;
+    o=n+1;
+    p=o+1;
+    q=p+1;
+    r=q+1;
+    s=r+1;
+    t=s+1;
+    u=t+1;
+    v=u+1;
+    w=v+1;
+    x=w+1;
+    y=x+1;
+    z=y+1;
+    
+    cout << a <<" e a"<< endl;
+    cout << b <<" e b"<< endl;
+    cout << c <<" e c"<< endl;
+    cout << d <<" e d"<< endl;
+    cout << e <<" e e"<< endl;
+    cout << f <<" e f"<< endl;
+    cout << g <<" e g"<< endl;
+    cout << h <<" e h"<< endl;
+    cout << i <<" e i"<< endl;
+    cout << j <<" e j"<< endl;
+    cout << k <<" e k"<< endl;
+    cout << l <<" e l"<< endl;
+    cout << m <<" e m"<< endl;
+    cout << n <<" e n"<< endl;
+    cout << o <<" e o"<< endl;
+    cout << p <<" e p"<< endl;
+    cout << q <<" e q"<< endl;
+    cout << r <<" e r"<< endl;
+    cout << s <<" e s"<< endl;
+    cout << t <<" e t"<< endl;
+    cout << u <<" e u"<< endl;
+    cout << v <<" e v"<< endl;
+    cout << w <<" e w"<< endl;
+    cout << x <<" e x"<< endl;
+    cout << y <<" e y"<< endl;
+    cout << z <<" e z"<< endl;
+    
+ 
+    return 0;
+}
+
+//*****Saída 8
+
+#include <iostream>
+ #include <iomanip>
+using namespace std;
+ 
+int main() {
+ 
+    float a,b;
+    a=234.345;
+    b=45.698;
+    
+    /*cout << fixed<< setprecision(6) << a << " - " << b << endl;*/
+    cout << "234.345000 - 45.698000"<<endl;
+    cout << fixed<< setprecision(0) << a << " - " << b << endl;
+    cout << fixed<< setprecision(1) << a << " - " << b << endl;
+    /*cout << fixed<< setprecision(2) << a << " - " << b << endl;*/
+    cout << "234.34 - 45.70"<<endl;
+    cout << fixed<< setprecision(3) << a << " - " << b << endl;
+    cout << "2.343450e+02 - 4.569800e+01" << endl;
+    cout << "2.343450E+02 - 4.569800E+01" << endl;
+    cout << "234.345 - 45.698" << endl;
+    cout << "234.345 - 45.698" << endl;
+  
+    return 0;
+}
+
+//*****Saída 9
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  cout << "\"Ro\'b\'er\tto\\/\"\n";
+  cout << "(._.) ( l: ) ( .-. ) ( :l ) (._.)\n";
+  cout << "(^_-) (-_-) (-_^)\n";
+  cout << "(\"_\") (\'.\')\n";
+
+    return 0;
+}
+
+//****Saída 10
+
+#include <iostream>
+ #include <iomanip> 
+using namespace std;
+ 
+int main() {
+ 
+    cout << setfill(' ') << setw(8) << "A" << endl;
+    cout << setfill(' ') << setw(7) << "B"<< " "<< "B" << endl;
+    cout << setfill(' ') << setw(6) << "C"<< "  "<< " "<<"C" << endl;
+    cout << setfill(' ') << setw(5) << "D"<< "   "<<"  "<< "D" << endl;
+    cout << setfill(' ') << setw(4) << "E"<< "    "<<"   "<<  "E" << endl;
+    cout << setfill(' ') << setw(5) << "D"<< "     "<< "D" << endl;
+    cout << setfill(' ') << setw(6) << "C"<< "   "<< "C" << endl;
+    cout << setfill(' ') << setw(7) << "B"<< " "<< "B" << endl;
+    cout << setfill(' ') << setw(8) << "A" << endl;
+ 
+    return 0;
+}
+
+//****Entrada e Saída de Números Inteiros
+
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main()
+{
+    int a, b, c;
+    
+    cin >> a;
+    cin >> b;
+    cin >> c;
+    
+    cout << "A = " << a << ", B = " << b << ", C = " << c << endl;
+    cout << "A = " << setw(10) << a << ", B = " << setw(10) << b << ", C = " << setw(10) << c << endl;
+    cout << internal;
+    cout << "A = " << setfill('0') << setw(10) << a << ", B = " << setfill('0') << setw(10) << b << ", C = " << setfill('0') << setw(10) << c << endl;
+    cout << "A = " << setfill(' ') << left << setw(10) << a << ", B = " << left << setw(10) << b << ", C = " << left << setw(10) << c << endl;
+}
+
+ //******Entrada e Saída de Números Reais
+
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{
+    float a, b;
+    double c, d;
+    scanf("%f %f %lf %lf",&a, &b, &c, &d);
+    printf("A = %.6lf, B = %.6lf\nC = %.6lf, D = %.6lf\n",a,b,c,d);
+    printf("A = %.1lf, B = %.1lf\nC = %.1lf, D = %.1lf\n",a,b,c,d);
+    printf("A = %.2lf, B = %.2lf\nC = %.2lf, D = %.2lf\n",a,b,c,d);
+    printf("A = %.3lf, B = %.3lf\nC = %.3lf, D = %.3lf\n",a,b,c,d);
+    printf("A = %.3E, B = %.3E\nC = %.3E, D = %.3E\n",a,b,c,d);
+    printf("A = %.0f, B = %.0f\nC = %.0f, D = %.0f\n",a,b,c,d);
+    return 0;
+}
+
+//*****Entrada e Saída de Carácter
+
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    char a,b,c;
+    
+    cin >>a;
+    cin >> b;
+    cin >> c;
+    
+    cout << "A = " << a << ", B = " << b << ", C = " << c << endl;
+    cout << "A = " << b << ", B = " << c << ", C = " << a << endl;
+    cout << "A = " << c << ", B = " << a << ", C = " << b << endl;
+    
+}
+
+Entrada e Saída de String
+
+#include <iostream>
+
+using namespace std;
+int main() {
+
+    string frases[3];
+    int i = 0, j = 3, ini;
+    while (i < 3) {
+        getline(cin, frases[i]);
+        i++;
+    }
+    for (j = 3, ini = 0; j < 6; j++, ini++) {
+        for (i = ini; i < j; i++)
+            cout << frases[i%3];
+        cout << endl;
+    }
+    for (i = 0; i < 3; i++) {
+        if (frases[i].size() < 10)
+            cout << frases[i];
+        else {
+            for (j = 0; j < 10; j++)
+                cout << frases[i][j];
+        }
+    }
+    cout << endl;
+    return 0;
+}
+
+ //******Entrada e Saída de Vários Tipos
+
+ #include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main() {
+    
+    int a;
+    float b;
+    char c;
+    string frase;
+    
+    cin >> a >> b >> c;
+    cin.ignore();
+    getline(cin, frase);
+    cout << a << fixed << b << c << frase << endl;
+    cout << a << "\t" << fixed << b << "\t" << c << "\t" << frase << endl;
+    cout << setw(10) << a << setw(10) << fixed << b << setw(10) << c << setw(10) << frase << endl;
+
+    return 0;
+}
+
+//****Entrada e Saída de Data
+
+#include <iostream>
+ #include <iomanip>
+using namespace std;
+ 
+int main() {
+ 
+    int d,m,a;
+    
+    cout <<setfill('0');
+    cin >> d; cin.ignore();
+    cin >> m; cin.ignore();
+    cin >> a;
+    
+    cout << setw(2) << m << '/' << setw(2) << d << '/' << setw(2)<< a <<endl;
+    cout << setw(2) << a << '/' << setw(2) << m << '/' << setw(2)<< d <<endl;
+    cout << setw(2) << d << '-' << setw(2) << m << '-' << setw(2)<< a <<endl;
+    return 0;
+}
+
+//********Contabilidade Pessoa Fisica I
+
+#include<iostream>
+#include<iomanip>
+
+using namespace std;
+
+class Pessoa
+{
+    public:
+        string Pessoa, Cpf;
+        int Dependentes;
+        float Valor;
+    
+        void setPessoa(string pessoa, string cpf, double valor, int dependente)
+        {
+            Pessoa = pessoa;
+            Cpf = cpf;
+            Valor = valor;
+            Dependentes = dependente;
+        }
+        
+        double Isento()
+        {
+            if(Valor / 12 >= 1903.99 && Valor / 12 <= 2826.65)
+            {
+                return (Valor - Dependentes * 200.0) * (7.5/ 100);
+            }
+            else if(Valor / 12 >= 2826.66 && Valor / 12 <= 3751.05)
+            {
+                return (Valor - Dependentes * 200.0) * (15.0/ 100);
+            }
+            else if(Valor / 12 >= 3751.06 && Valor / 12 <= 4664.68)
+            {
+                return (Valor - Dependentes * 200.0) * (22.5/ 100);
+            }
+            else
+            {
+                return (Valor - Dependentes * 200.0) * (27.5/ 100);
+            }
+            
+        }
+};
+
+int main()
+{
+    Pessoa p;
+    
+    string nome, cpf;
+    
+    double valor;
+    
+    int dependentes;
+    
+    getline(cin, nome);
+    getline(cin, cpf);
+    cin >> valor;
+    cin >> dependentes;
+    
+    p.setPessoa(nome, cpf, valor, dependentes);
+    
+    cout << fixed;
+    cout << "Nome: " << p.Pessoa << endl;
+    cout << "CPF: " << p.Cpf << endl;
+    cout << "Valor Anual: R$" << setprecision(2) << setfill(' ') << setw(10) <<  p.Valor << endl;
+    cout << "Dependentes: " << p.Dependentes << endl;
+    
+    
+    if(p.Valor / 12 <= 1903.98)
+    {
+        cout << "IRPF:     isento" << endl;
+    }
+    else
+    {
+        cout << setprecision(2) << fixed;
+        cout << "IRPF: R$" << setfill(' ') << setw(10) << p.Isento() << endl;
+    }
+}
+
+//******Contabilidade Pessoa Fisica II
+
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+class Clientes{
+
+    private:
+    int problema,qtd,i,dep[100];
+    string nome[100],cpf[100];
+    float rendanual[100],rendmensal[100],irpf[100],somairpf;
+
+    public:
+    
+    void ler();
+
+    int getqtd();
+    string getnome();
+    string getcpf();
+    float getrendanual();
+    int getdep();
+    void getsaida();
+    void getcategorias();
+    float getrendmensal();
+    float getirpf();
+    float getsomairpf();
+};
+
+    void Clientes::ler(){
+        
+        cin >> qtd;
+
+        for (i=0;i<qtd;i++){
+            cin.ignore();
+            getline(cin,nome[i]);
+            cin >> cpf[i];
+            cin >> rendanual[i];
+            cin >> dep[i];
+            
+            rendmensal[i] = (rendanual[i]-200*dep[i])/12;
+
+            if (rendmensal[i] <= 1903.98){
+            irpf[i] = 0.00;
+            } else if (rendmensal[i] <= 2826.65){
+            irpf[i] = (rendanual[i]-200*dep[i])*7.5/100.0;
+            } else if (rendmensal[i] <= 3751.05){
+            irpf[i] = rendanual[i]-200*dep[i]*15.0/100.0;
+            } else if (rendmensal[i] <= 4664.68){
+            irpf[i] = (rendanual[i]-200*dep[i])*22.5/100.0;
+            } else if (rendmensal[i] > 4664.68){
+            irpf[i] = (rendanual[i]-200*dep[i])*27.5/100.0;
+            }
+        
+        }
+
+        
+    }
+
+    int Clientes::getqtd(){
+        return qtd;
+    }
+
+    string Clientes::getnome(){
+        return nome[i];
+    }
+
+    string Clientes::getcpf(){
+        return cpf[i];
+    }
+
+    float Clientes::getrendanual(){
+        return rendanual[i];
+    }
+
+    float Clientes::getrendmensal(){
+        return rendmensal[i];
+    }
+    
+    int Clientes::getdep(){
+        return dep[i];
+    }
+
+    float Clientes::getirpf(){   
+        return irpf[i];
+    }
+
+    float Clientes::getsomairpf(){
+        somairpf = 0;
+        
+        for (i=0;i<qtd;i++){
+        somairpf = somairpf + irpf[i];
+        }
+
+        return somairpf;
+    }
+    
+    void Clientes::getcategorias(){
+        cout << setw(200) << left << "Nome" << "!" << setw(15) << left << "CPF" << "!  Vl Anual  !Dep!    IRPF    !" << endl ;
+    }
+    
+    void Clientes::getsaida(){
+        for (i=0;i<qtd;i++){
+            cout << setw(200) << left << Clientes::getnome() << "!" << setw(15) << left << Clientes::getcpf() << "!R$" << setw(10) << right << fixed << setprecision(2) << Clientes::getrendanual() << "!" << setw(3) << right << Clientes::getdep() << "!R$" << setw(10) << right << fixed << setprecision(2) << Clientes::getirpf() << "!" << endl;
+        }
+
+        cout << "Quantidade " << setw(223) << left << Clientes::qtd << "R$" << setw(10) << right << fixed << setprecision(2) << Clientes::getsomairpf() << "!" << endl;
+    }
+
+int main(){
+
+    Clientes c;
+
+    c.ler();
+    
+    
+    c.getcategorias();
+    c.getsaida();
+
+    return 0;
+}
+
+//*******Contabilidade Pessoa Fisica III
+
+#include<iostream>
+#include<iomanip>
+#include<string.h>
+#include<cstdlib>
+
+using namespace std;
+
+class Pessoa
+{
+    public:
+        string Pessoa, Cpf;
+        int Dependentes;
+        float Valor;
+        
+        void setPessoa(string pessoa, string cpf, double valor, int dependente)
+        {
+            Pessoa = pessoa;
+            Cpf = cpf;
+            Valor = valor;
+            Dependentes = dependente;
+        }
+        
+        double Isento()
+        {
+            if(Valor / 12 <= 1903.98)
+            {
+                return 0.0;
+            }
+            else if(Valor / 12 >= 1903.99 && Valor / 12 <= 2826.65)
+            {
+                return (Valor - Dependentes * 200.0) * (7.5/ 100);
+            }
+            else if(Valor / 12 >= 2826.66 && Valor / 12 <= 3751.05)
+            {
+                return (Valor - Dependentes * 200.0) * (15.0/ 100);
+            }
+            else if(Valor / 12 >= 3751.06 && Valor / 12 <= 4664.68)
+            {
+                return (Valor - Dependentes * 200.0) * (22.5/ 100);
+            }
+            else
+            {
+                return (Valor - Dependentes * 200.0) * (27.5/ 100);
+            }
+        }
+        
+        void retorno()
+        {
+            char resp[10];
+            do
+            {
+                cin >> resp;
+            }while(strcmp(resp, "ok") != 0);
+        }
+        
+        int menu()
+        {
+            int opc;
+            do{
+                cout << "1 - realizar leitura" << endl;
+                cout << "2 - listar" << endl;
+                cout << "3 - sair" << endl;
+                cout << "Entre com a sua opcao:" << endl;
+                cin >> opc;
+            }while(opc<1 || opc>3);
+            return opc;
+        }
+};
+
+int main()
+{
+    Pessoa p;
+    
+    Pessoa vet[200];
+    
+    string nome, cpf;
+    
+    double valor, soma = 0.0;
+    
+    int dependentes, n, qtd = 0, pessoas = 0;
+    
+    bool acabou = false;
+    
+    
+    while(!acabou)
+    {
+        switch(p.menu())
+        {
+            case 1:
+            cin >> n;
+            for(int i = 0; i < n; i++)
+            {
+
+                cin.ignore(1);
+                getline(cin, nome);
+                getline(cin, cpf);
+                cin >> valor;
+                cin >> dependentes;
+                
+                p.setPessoa(nome, cpf, valor, dependentes);
+                
+                vet[qtd] = p;
+                qtd++;
+            }
+            break;
+            case 2:
+            cout << "Nome                                                                                                                                                                                                    !CPF            !  Vl Anual  !Dep!    IRPF    !" << endl;
+            for(int i = 0; i < qtd; i++)
+            {
+                p = vet[i];
+                cout << fixed;
+                cout << left << setw(193) << setfill(' ') << p.Pessoa << right << setw(8) <<'!' << p.Cpf << " !R$" << setw(10) << setprecision(2) << p.Valor << '!' << setw(3) << p.Dependentes << "!R$" << setw(10) << p.Isento() << '!' <<endl;
+        
+                soma += p.Isento();
+                pessoas++;
+            }
+            cout << "Quantidade " << pessoas << "                                                                                                                                                                                                                              R$" << setw(10) << soma << '!' << endl;
+            p.retorno();
+            break;
+            case 3:
+            acabou = true;
+            break;
+        }
+    }
+    
+    cout << "Obrigado por utilizar o programa e volte sempre." << endl;
+}
+
+//******Vetor de Inteiros - POO
+
+#include <iostream>
+
+using namespace std;
+
+
+class TvetInt{
+    
+    private:
+    int x, quantidade, v[100];
+    public:
+    void ler(){
+        cin >> quantidade;
+        for(int i=0;i<quantidade; i++){
+            cin>>v[i];
+        }
+    }
+    
+    
+    void listar(){
+        for(int i=0; i<quantidade;i++){
+            cout << v[i]  << " ";
+        }
+        cout << endl;
+    }
+    
+    void inverter(){
+        for(int i=0; i<quantidade/ 2; i++){
+            x = v[i];
+            v[i]= v[quantidade-1-i];
+            v[quantidade-1-i] = x;
+            
+        }
+    }
+    
+    
+    
+};
+
+
+int main()
+{
+   
+    TvetInt c;
+    c.ler();
+    c.inverter();
+    c.listar();
+    
+    
+    
+    
+}
+
+-//********** Polinômio POO
+
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+
+class TPolinomio
+{
+    private:
+        float c1[100], c;
+        int e1[100], n;
+    public:
+        void ler();
+        float calcular(float valorX);
+};
+
+void TPolinomio::ler()
+{
+    cin >> n;
+    for(int i=0; i<n; i++){
+        cin >> c1[i];
+        cin >> e1[i];
+    }
+}
+
+float TPolinomio::calcular(float valorX)
+{
+    for(int i=0; i<n; i++){
+        c = c + c1[i]*pow(valorX, e1[i]);
+    }
+    return c;
+}
+
+int main()
+{
+    TPolinomio p;
+    float x;
+    p.ler();
+    cin >> x;
+    cout << fixed << setprecision(2);
+    cout << "p(" << x << ") = " << p.calcular(x) << endl;
+    return 0;
+    }
+
+   //******** Alunos e Média POO
+
+#include<iostream>
+#include<iomanip>
+
+using namespace std;
+
+class Aluno
+{
+    private:
+        string Nome;
+        double NotaA, NotaB;
+        
+    public:
+        void Ler();
+        double NotaMaxima();
+        string GetNome();
+        bool Aprovacao();
+        string Aprovacaoc();
+};
+
+bool Aluno::Aprovacao()
+{
+    if(NotaMaxima() >= 6)
+    {
+        return true;
+    }
+    else 
+    {
+        return false;
+    }
+}
+
+string Aluno::Aprovacaoc()
+{
+    if(Aprovacao())
+    {
+        return "Aprovado";
+    }
+    else
+    {
+        return "Reprovado";
+    }
+}
+
+void Aluno::Ler()
+{
+    getline(cin, Nome);
+    cin >> NotaA >> NotaB;
+}
+
+double Aluno::NotaMaxima()
+{
+    cout << setprecision(2);
+    return (NotaA + NotaB   * 2.0 )  / 3.0;
+}
+
+string Aluno::GetNome()
+{
+    return Nome;
+}
+
+class Alunovet
+{
+    private:
+        int quantidade;
+        Aluno aluno[100];
+        
+    public:
+        void Ler();
+        void Mostrar();
+};
+
+void Alunovet::Ler()
+{
+    cin >> quantidade;
+    for(int i = 0; i < quantidade; i++)
+    {
+        cin.ignore(1);
+        aluno[i].Ler();
+    }
+}
+
+void Alunovet::Mostrar()
+{
+    for(int i = 0; i < quantidade; i++)
+    {
+        Aluno a = aluno[i];
+        
+        cout << setprecision(2) << fixed;
+        cout << left << setfill(' ') << setw(50) <<a.GetNome() << ' ' << right <<setw(5)<<a.NotaMaxima() << ' ' << a.Aprovacaoc() << endl;
+    }
+}
+
+int main()
+{
+    Alunovet a;
+    
+    a.Ler();
+    a.Mostrar();
+}
+
+//*******Media sem valores Extremos OO
+
+#include<iostream>
+#include<iomanip>
+
+using namespace std;
+
+class Media
+{
+    private:
+        int qtd, cont;
+        double V1[100];
+        double auxiliar = 0.0;
+        double soma = 0.0, maior, menor;
+    public:
+        void Ler();
+        void Mostrar();
+        void Maior();
+        void Menor();
+        void Mediax();
+        
+};
+
+void Media::Ler()
+{
+    cin >> qtd;
+    for(int i = 0; i < qtd; i++)
+    {
+        cin >> V1[i];
+    }
+}
+
+void Media::Maior()
+{
+    
+    maior = V1[0];
+    for(int i = 1; i < qtd; i++)
+    {
+        if(V1[i] > maior)
+        {
+            maior = V1[i];
+        }
+    }
+        cout << setprecision(2) << fixed;
+        cout << "Maior: " << maior << endl;
+}
+
+void Media::Menor()
+{
+    
+    menor = V1[0];
+    for(int i = 1; i < qtd; i++)
+    {
+        if(V1[i] < menor)
+        {
+            menor = V1[i];
+        }
+    }
+        cout << "Menor: " << menor << endl;
+}
+
+void Media::Mediax()
+{
+    
+    for(int i=0; i<qtd; i++) 
+    if ((V1[i]<maior) && (V1[i]>menor)) 
+    {
+        soma+=V1[i];
+        cont++;
+    }
+    cout << "Media sem extremos: " << soma / cont;
+    
+}
+
+int main()
+{
+    Media m;
+    m.Ler();
+    m.Maior();
+    m.Menor();
+    m.Mediax();
+}
+
+//******Agenda - POO
+
+#include<iostream>
+#include<iomanip>
+
+using namespace std;
+
+class Agenda
+{
+    private:
+        string Nome;
+        int Idade;
+        double Altura;
+    public:
+        string GetNome(){return Nome;}
+        int GetIdade(){return Idade;}
+        double GetAltura(){return Altura;}
+        void Ler();
+};
+
+
+void Agenda::Ler()
+{
+    cin.ignore(1);
+    getline(cin, Nome);
+    cin >> Idade;
+    cin >> Altura;
+}
+
+class VetAgenda
+{
+    private:
+        Agenda agenda[100];
+        int qtd;
+        int ObterIndice(string nome);
+    public:
+        VetAgenda();
+        void Inserir(Agenda a);
+        void Remover(string nome);
+        void Listar();
+        bool Existe(string nome) { return ObterIndice(nome) > -1; }
+        void Listar(string nome);
+};
+
+VetAgenda::VetAgenda()
+{
+    qtd = 0;
+}
+
+
+void VetAgenda::Inserir(Agenda a)
+{
+    agenda[qtd++] = a;
+}
+
+int VetAgenda::ObterIndice(string nome)
+{
+    bool achou = false;
+    int i = 0;
+    while (i<qtd && !achou)
+      if (nome==agenda[i].GetNome())
+          achou = true;
+      else
+          i++;
+     return achou?i:-1;  
+}
+
+void VetAgenda::Remover(string nome)
+{
+    int pos = ObterIndice(nome);
+    if(pos >=0)
+        agenda[pos] = agenda[--qtd];
+}
+
+
+void VetAgenda::Listar()
+{
+    cout << fixed << setprecision(2); 
+    cout << "!Nome                          !Idade     !Altura    !" << endl;
+
+    for(int i=0; i< qtd; i++)
+    {
+        Agenda a = agenda[i];
+        cout  << "!" << left << a.GetNome() << right <<setw(22) << '!' << left <<a.GetIdade()  << setw(15) << right << a.GetAltura() << endl;
+    }
+}
+
+
+void VetAgenda::Listar(string nome)
+{
+    cout << fixed << setprecision(2); 
+    cout << left << setw(3) << "!Nome" << setw(30) << "!Idade" << setw(20) << "!Altura     !" << endl;
+    
+    for(int i = 0; i < qtd; i++)
+    {
+        Agenda a = agenda[i];
+        if(a.GetNome() == nome)
+        {
+            cout << right << setfill('0')  << "!"  << setw(3) <<a.GetNome()  << left <<setfill(' ') <<setw(30) << a.GetIdade() << "!" << setw(20) << a.GetAltura() << endl;
+        }
+    }
+}
+
+
+
+int main()
+{
+    Agenda a;
+    VetAgenda v;
+    int codigo;
+    string nome, escolha;
+    
+    bool acabou = false;
+    
+    while(!acabou)
+    {
+        getline(cin, escolha);
+            if(escolha == "INS")
+            {
+                 a.Ler();
+                v.Inserir(a);
+                cout << "Contato " << a.GetNome() << " inserido com sucesso!" << endl;
+            }
+               
+            else if(escolha == "REM")
+            {
+                cin.ignore(1);
+                getline(cin, nome);
+                if(v.Existe(nome))
+                {
+                    v.Remover(nome);
+                }
+                else
+                {
+                    cout << "Nao foi encontrado o contato " << nome << " para remover!" << endl;
+                }
+            }
+                
+            else if(escolha == "LST")
+            {
+                v.Listar();
+            }
+                
+               
+            else if(escolha == "VER")
+            {
+                cin.ignore(1);
+                getline(cin, nome);
+                v.Listar(nome);
+            }
+
+            else if(escolha == "SAIR")
+            {
+                acabou = true;
+            }
+    }
+}
+
+//******Gerenciar Cardapio
+
+#include<iostream>
+#include<string>
+#include<iomanip>
+
+
+using namespace std;
+
+class PessoaFisica
+{
+    private:
+        string produto;
+      
+    public: 
+        
+        void ler();
+        void escrever();
+   
+        string getProduto()     { return produto; }
+    
+     
+};
+
+//******Números Pares
+
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    int x;
+    bool verdade= true;
+    x = 2;
+    while(verdade){
+        if(x >=100){
+            verdade = false;
+        }cout << x<< endl;
+        x = x+2;
+    }
+ 
+    return 0;
+}
+
+//****Senha Fixa
+
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    int senha = 2002;
+    int entrada;
+    bool errada = true;
+    while(errada){
+        cin >> entrada;
+        if(entrada == senha){
+            errada = false;
+            cout<< "Acesso Permitido"<< endl;
+        }else{cout<< "Senha Invalida"<< endl;}
+    }
+ 
+    return 0;
+}
+
+//****Validação de Nota
+
+#include <iostream>
+#include <stdio.h>
+
+using namespace std;
+
+int main(){
+    
+    float x, y, z;
+    y = 0;
+    z = 0;
+    while(true){
+                cin >> x;
+                if(x < 0 || x > 10){
+                      cout << "nota invalida\n";
+                }
+                else if(z == 0){
+                      y = x;
+                      z = 1;
+                }else{
+                      printf("media = %.2f\n", (y+x)/2);
+                      break;
+                }
+    } 
+    return 0;
+}
+
+//****Grenais
+
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main() {
+    int golsI, golsG, vI = 0, vG = 0, j = 0, escolha;
+    while (1) {
+        cin >> golsI >> golsG;
+        
+        if (golsI > golsG)
+            vI++;
+        else if (golsG > golsI)
+            vG++;
+        j++;
+        
+        cout << "Novo grenal (1-sim 2-nao)" << endl; 
+        cin >> escolha;
+
+        if (escolha==2)
+            break;
+    }
+    
+    cout << j << " grenais" << endl;
+    cout << "Inter:" << vI << endl;
+    cout << "Gremio:" << vG << endl;
+    cout << "Empates:" << j-vI-vG << endl;
+    
+    if (vI > vG)
+        cout << "Inter venceu mais" << endl;
+    else if (vG > vI)
+        cout << "Gremio venceu mais" << endl;
+    else
+        cout << "Nao houve vencedor" << endl;
+    
+    return 0;
+}
+
+//*****Tipo de Combustível
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int n, a = 0, g = 0, d = 0;
+    do {
+        cin >> n;
+        if (n == 1) a++;
+        if (n == 2) g++;
+        if (n == 3) d++;
+    } while (n != 4);
+    
+    cout << "MUITO OBRIGADO" << endl;
+    cout << "Alcool: " << a << endl;
+    cout << "Gasolina: " << g << endl;
+    cout << "Diesel: " << d << endl;
+    
+    return 0;
+}
+
+//***** Fibonacci Fácil
+
+#include <iostream>
+
+using namespace std; 
+
+int main() 
+{
+ int n;
+ int fib[50];
+ fib[0] = 0;
+ fib[1] = 1;
+ cin >> n;
+ int computed = 1;
+ cout << fib[0];
+ for(int i = 1; i<n;i++){
+  if(i>computed){
+   fib[i] = fib[i-1]+fib[i-2];
+  }
+  cout << " " << fib[i];
+ }
+ cout << endl;
+    return 0; 
+}
+
+//*****Fatorial Simples
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    
+    int op;
+    int fat = 1;
+    
+    cin >> op;
+    
+    for(int i = 0; i < (op-1); i++){
+            fat *= (op - i);
+    }
+    cout << fat << endl;
+    return 0;
+}
+
+//*****Divisores I
+
+#include <stdio.h>
+
+int main()
+{
+   int N,a;
+    scanf("%d",&N);
+    for(a=1;a<=N;a++)
+    {
+        if(N%a==0)
+            printf("%d\n",a);
+    }
+    return 0;
+}
+
+//*****Bazinga!
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+
+int main()
+{
+    string s1, s2;
+   
+    int caso = 1;   
+    int n;
+   
+    cin >> n;
+   
+    while (n--)
+    {
+        cin >> s1 >> s2;
+        cout << "Caso #" << caso++ << ": ";
+        if (s1 == s2) cout << "De novo!\n";
+        else if (s1 == "tesoura" && s2 == "papel") cout << "Bazinga!\n";
+        else if (s2 == "tesoura" && s1 == "papel") cout << "Raj trapaceou!\n";
+        else if (s1 == "papel" && s2 == "pedra") cout << "Bazinga!\n";
+        else if (s2 == "papel" && s1 == "pedra") cout << "Raj trapaceou!\n";
+        else if (s1 == "pedra" && s2 == "lagarto") cout << "Bazinga!\n";
+        else if (s2 == "pedra" && s1 == "lagarto") cout << "Raj trapaceou!\n";
+        else if (s1 == "lagarto" && s2 == "Spock") cout << "Bazinga!\n";
+        else if (s2 == "lagarto" && s1 == "Spock") cout << "Raj trapaceou!\n";
+        else if (s1 == "Spock" && s2 == "tesoura") cout << "Bazinga!\n";
+        else if (s2 == "Spock" && s1 == "tesoura") cout << "Raj trapaceou!\n";
+        else if (s1 == "tesoura" && s2 == "lagarto") cout << "Bazinga!\n";
+        else if (s2 == "tesoura" && s1 == "lagarto") cout << "Raj trapaceou!\n";
+        else if (s1 == "lagarto" && s2 == "papel") cout << "Bazinga!\n";
+        else if (s2 == "lagarto" && s1 == "papel") cout << "Raj trapaceou!\n";
+        else if (s1 == "papel" && s2 == "Spock") cout << "Bazinga!\n";
+        else if (s2 == "papel" && s1 == "Spock") cout << "Raj trapaceou!\n";
+        else if (s1 == "Spock" && s2 == "pedra") cout << "Bazinga!\n";
+        else if (s2 == "Spock" && s1 == "pedra") cout << "Raj trapaceou!\n";
+        else if (s1 == "pedra" && s2 == "tesoura") cout << "Bazinga!\n";
+        else if (s2 == "pedra" && s1 == "tesoura") cout << "Raj trapaceou!\n";
+    }
+}
+
+//******Qual Triângulo
+
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    string ans = "" ;
+    cin >> a >> b >> c ;
+    if(a+c>b){
+    if((a != b and b == c) or ( a == c and a != b) or ( a == b and c != b))
+        ans = "Valido-Isoceles";
+    else if(a == b and a == c)
+        ans = "Valido-Equilatero" ;
+    else if(a != b and b != c and a != c)
+        ans = "Valido-Escaleno";
+    }
+    else{
+        ans = "Invalido";
+    }
+    if(ans != "Invalido"){
+      if(pow(a,2) == pow(b,2) + pow(c,2) or pow(b,2) == pow(a,2) + pow(c,2) or pow(c,2) == pow(a,2) + pow(b,2))
+        cout << ans << endl << "Retangulo: S" <<endl ;
+       else
+        cout << ans << endl << "Retangulo: N" << endl;
+    }
+    else
+        cout << ans << endl;
+    return 0;
+}
+
+//******Notas da Prova
+
+#include "stdio.h"
+int main()
+{
+    int m = 0;
+    scanf("%d", &m);
+
+    if(m <= 100 && m >= 0)
+    {
+        if (m == 0)
+            printf("E");
+
+        if (m > 0 && m <= 35)
+            printf("D");
+
+        if (m > 35 && m <= 60)
+            printf("C");
+
+        if (m > 60 && m <= 85)
+            printf("B");
+
+        if (m > 85)
+            printf("A");
+    }
+    printf("\n");
+
+    return 0;
+}
+
+//*****Xadrez
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    long m, n, c, i, j=0, k, v[51];
+    cin>>c>>n;
+    if(c%2==0 && n%2==0) cout<<"1"<<endl;
+    else if (c%2==0 && n%2==1) cout<<"0"<<endl;
+    else if (c%2==1 && n%2==0) cout<<"0"<<endl;
+    else if (c%2==1 && n%2==1) cout<<"1"<<endl;
+}
+
+
+//*****Fórmula de Bhaskara
+
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+ 
+using namespace std;
+
+
+class Formula{
+     private:
+      double A,B,C;
+      
+      public:
+       void setFormula(double a, double b, double c){
+           A = a;
+           B = b;
+           C = c;
+       }
+      double raiz(){
+          
+          return pow(B,2) -4 * A*C;
+      } 
+      double raiz1(){
+          return (-B + sqrt(raiz())) / (2*A);
+      }
+ 
+      double raiz2(){
+          return (-B - sqrt(raiz())) / (2*A);
+      }
+
+};
+
+int main() {
+
+Formula formula;
+
+double a, b,c;
+
+cin >> a >> b>> c;
+
+
+formula.setFormula(a,b,c);
+
+if(a == 0 ||formula.raiz()< 0){
+    cout << "Impossivel calcular" << endl;
+
+}else{
+    cout << setprecision(5) << fixed;
+    cout << "R1 = " << formula.raiz1() << endl;
+    cout << "R2 = " << formula.raiz2() << endl;
+}
+
+
+ 
+    return 0;
+}
+
+//***** Médias Ponderadas
+
+#include <iostream>
+#include <cmath>
+#include<iomanip>
+using namespace std;
+
+class Calculo{
+    private: 
+        
+        double A, B,C;
+    public:
+        void setVariaveis(double a, double b, double c){
+            
+            A = a;
+            B = b;
+            C = c;
+        }
+        
+        double formula(){
+            
+             return (A * 2 + B * 3 + C * 5) / 10;
+        }
+        
+    
+};
+
+
+int main() {
+    
+    Calculo calculo;
+    int n,i;
+    double a,b,c;
+    cin>> n;
+    
+    
+    for(i=0; i<n ; i++){
+        cin>> a>> b>> c;
+        calculo.setVariaveis(a,b,c);
+        cout <<setprecision(1) << fixed;
+        cout << calculo.formula()<< endl;
+        
+    }
+    
+    return 0;
+}
+
+//******Crescente e Decrescente
+
+
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+
+using namespace std;
+
+class CreDecre{
+
+    private:
+        int X,Y;
+    public:
+        void setVariaveis(int x, int y){
+            X = x;
+            Y = y;
+        }
+
+        bool formula(){
+
+            if(X > Y){
+                return true;
+            }else{
+                return false;
+            }
+        }
+
+
+
+
+};
+
+
+int main(){
+    CreDecre c;
+    int x, y;
+    
+    
+    cin >> x >> y;
+    c.setVariaveis(x, y);
+
+
+    while(x!=y){
+
+        if(c.formula()){
+            cout <<"Decrescente" << endl;
+        }else{
+            cout<< "Crescente" << endl;
+        }
+        cin >> x >> y;
+        c.setVariaveis(x, y);
+        
+    }
+
+
+
+
+}
+
+//******Troca em Vetor I
+
+#include<iostream>
+
+using namespace std;
+
+class Trocador
+{
+    public:
+    
+    int Vect[20], trocadorr = 0;
+        
+        int Troca()
+        {
+            for (int i = 0, j = 19; i < 10; i++, j--)
+            {
+                trocadorr = Vect[i];
+                Vect[i] = Vect[j];
+                Vect[j] = trocadorr;
+            }
+
+            return trocadorr;
+        }
+};
+
+int main()
+{
+
+            Trocador t;
+
+            for (int i = 0; i < 20; i++)
+            {
+                cin >> t.Vect[i];
+            }
+
+          
+                t.Troca();
+
+            for(int i = 0; i < 20; i++)
+            {
+                cout << "N[" << i << "] = " << t.Vect[i] << endl;
+            }
+}
+
+//*****LED
+
+#include <iostream>
+#include <string>
+#include <cstring>
+using namespace std;
+ 
+int main() {
+  
+    int n;
+    int i, leds, j;
+    int tamanho;
+    char numero[105];
+    
+    cin >> n;
+    for(i = 0; i < n; i++){
+        cin >> numero;
+        tamanho = strlen(numero);
+        leds = 0;
+        for(j = 0; j <tamanho;j++){
+            if(numero[j] == '1')leds = leds + 2;
+            if(numero[j] == '2')leds = leds + 5;
+            if(numero[j] == '3')leds = leds + 5;
+            if(numero[j] == '4')leds = leds + 4;
+            if(numero[j] == '5')leds = leds + 5;
+            if(numero[j] == '6')leds = leds + 6;
+            if(numero[j] == '7')leds = leds + 3;
+            if(numero[j] == '8')leds = leds + 7;
+            if(numero[j] == '9')leds = leds + 6;
+            if(numero[j] == '0')leds = leds + 6;
+
+        }
+        cout << leds <<" leds" << endl;
+    }
+ 
+    return 0;
+}
+
+//******Substituição em Vetor I
+
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    int i, x[10];
+    
+    for(i= 0; i<10; i++){
+        cin >> x[i];
+    }
+    
+    for( i = 0; i<10; i++){
+        if(x[i] <= 0){
+            x[i]= 1;
+        }
+    }
+    
+    for(i=0; i<10; i++){
+        cout << "X[" << i << "] = " << x[i]<< endl;
+    }
+    
+    
+    
+    return 0;
+}
+
+//******Preenchimento de Vetor I
+
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    int i,j,n,x[10];
+    
+    cin>> n;
+    x[0] = n;
+    for(i = 1; i<10; i++){
+        
+        x[i] = 2* n;
+        n = x[i];
+        
+        
+    }
+    
+    for( i = 0; i < 10; i++){
+        cout << "N[" << i << "] = " << x[i]<< endl;
+    }
+    
+    return 0;
+}
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    int i,j,n,x[10];
+    
+    cin>> n;
+    x[0] = n;
+    for(i = 1; i<10; i++){
+        
+        x[i] = 2* n;
+        n = x[i];
+        
+        
+    }
+    
+    for( i = 0; i < 10; i++){
+        cout << "N[" << i << "] = " << x[i]<< endl;
+    }
+    
+    return 0;
+}
+
+//******Troca em Vetor I
+
+
+#include<iostream>
+
+using namespace std;
+
+class Trocador
+{
+    public:
+    
+    int Vect[20], trocadorr = 0;
+        
+        int Troca()
+        {
+            for (int i = 0, j = 19; i < 10; i++, j--)
+            {
+                trocadorr = Vect[i];
+                Vect[i] = Vect[j];
+                Vect[j] = trocadorr;
+            }
+
+            return trocadorr;
+        }
+};
+
+int main()
+{
+
+            Trocador t;
+
+            for (int i = 0; i < 20; i++)
+            {
+                cin >> t.Vect[i];
+            }
+
+          
+                t.Troca();
+
+            for(int i = 0; i < 20; i++)
+            {
+                cout << "N[" << i << "] = " << t.Vect[i] << endl;
+            }
+}
+
+//*****Fibonacci em Vetor
+
+#include <iostream>
+
+int main(){
+    int n, f;
+    long long fib[61];
+    std::cin >> n;
+    fib[0] = 0;
+    fib[1] = 1;
+    for(int j = 2; j <= 60; j++){
+            fib[j] = fib[j-2] + fib[j-1];
+    }
+    
+    for(int i = 0; i < n; i++){
+            std::cin >> f;
+            std::cout << "Fib(" << f << ") = " << fib[f] << "\n";
+    }
+    return 0;
+}  
+
+//****** Menor e Posição
+
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main()
+{
+    int n, x;
+    int pos = 0, val = 0, tmp = 0;
+    bool ver = false;
+
+    cin >> n;
+    vector<int> v;
+
+    for (int i = 0; i < n; ++i)
+    {
+        cin >> x;
+        v.push_back(x);
+    }
+
+    for (int i = 0; i < n; ++i)
+    {
+        tmp = v[i];
+        if(ver == false){
+            val = tmp;
+            ver = true;
+        }
+        if(tmp < val){
+            val = tmp;
+            pos = i;
+        }
+
+    }
+
+    cout << "Menor valor: " << val << endl << "Posicao: " << pos << endl;
+
+    return 0;
+}
+
+//******Linha na Matriz
+
+#include <iostream>
+#include <stdio.h>
+
+int main(){
+    int l;
+    char t;
+    double N[12][12];
+    double soma = 0.0;
+    
+    std::cin >> l;
+    std::cin >> t;    
+    
+    for(int i = 0; i < 12; i++){
+            for(int j = 0; j < 12; j++){
+                   std::cin >> N[i][j];
+                   if(i == l){
+                        soma += N[i][j];
+                   }
+            }
+   }
+   
+   if(t == 'S')
+         printf("%.1f\n", soma);
+    else
+         printf("%.1f\n", soma/12.0);
+    return 0;
+}
+
+
+//*****Acima da Diagonal Principal
+
+#include <iostream>
+#include <stdio.h>
+
+using namespace std;
+
+int main(){
+    double N[12][12];
+    char p;
+    double soma = 0.0;
+    
+    cin >> p;
+    
+    for(int i = 0; i < 12; i++){
+            for(int j = 0; j < 12; j++){
+                   cin >> N[i][j];
+                   if(j > i){
+                        soma += N[i][j];
+                   }
+            }
+   }
+    
+    if(p == 'S')
+         printf("%.1f\n", soma);
+    else
+         printf("%.1f\n", soma/66.0);
+    return 0;
+}
+
+//*****Abaixo da Diagonal Secundária
+
+#include <iostream>
+#include <stdio.h>
+
+using namespace std;
+
+int main(){
+    double N[12][12];
+    char p;
+    double soma = 0.0;
+    
+    cin >> p;
+    
+    for(int i = 0; i < 12; i++){
+            for(int j = 0; j < 12; j++){
+                   cin >> N[i][j];
+                   if(j > 11 - i){
+                        soma += N[i][j];
+                   }
+            }
+   }
+    
+    if(p == 'S')
+         printf("%.1f\n", soma);
+    else
+         printf("%.1f\n", soma/66.0);
+    return 0;
+}
+
+//******Área Superior
+
+#include <iostream>
+#include <stdio.h>
+
+using namespace std;
+
+int main(){
+    double N[12][12];
+    char p;
+    double soma = 0.0;
+    
+    cin >> p;
+    
+    for(int i = 0; i < 12; i++){
+            for(int j = 0; j < 12; j++){
+                   cin >> N[i][j];
+            if(j > i && (j+i) < 11){
+                 soma += N[i][j];
+            }
+            }
+   }
+    
+    if(p == 'S')
+         printf("%.1f\n", soma);
+    else
+         printf("%.1f\n", soma/30.0);
+    return 0;
+}
+
+//****** Área Direita
+
+#include <iostream>
+#include <stdio.h>
+
+using namespace std;
+
+int main(){
+    double N[12][12];
+    char p;
+    double soma = 0.0;
+    
+    cin >> p;
+    
+    for(int i = 0; i < 12; i++){
+            for(int j = 0; j < 12; j++){
+                   cin >> N[i][j];
+            if(j > (11 - i) && j > i){
+                 soma += N[i][j];
+            }
+            }
+   }
+    
+    if(p == 'S')
+         printf("%.1f\n", soma);
+    else
+         printf("%.1f\n", soma/30.0);
+    return 0;
+}
+
+//******Área do Círculo
+
+#include <iostream>
+#include<iomanip>
+#include<cmath>
+ 
+using namespace std;
+ 
+int main() {
+    
+    double a, n = 3.14159;
+    
+    cin >> a;
+    
+    cout << setprecision(4) << fixed;
+    cout << "A=" << n * pow(a, 2) << endl;
+}
+
+//******Soma Simples
+
+#include <iostream>
+#include<cmath>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    int a, b;
+    
+    cin >> a >> b;
+    
+    cout << "SOMA = " << a + b << endl;
+}
+
+//*****Produto Simples
+
+#include <iostream>
+#include<cmath>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    int a, b;
+    
+    cin >> a >> b;
+    
+    cout << "PROD = " << a * b << endl;
+}
+
+//******Média 1
+
+#include<iostream>
+#include<string>
+#include<iomanip>
+#include<cmath>
+
+using namespace std;
+
+int main()
+{
+    double a , b;
+    
+    cout << setprecision(1) << fixed;
+    cin >> a >> b;
+    
+    cout << "MEDIA = " << setprecision(5) << (a * 3.5 + b * 7.5) / 11.0 << fixed << endl;
+}
+
+//******Média 2
+
+#include<iostream>
+#include<string>
+#include<iomanip>
+#include<cmath>
+
+using namespace std;
+
+int main()
+{
+    double a , b, c;
+    
+    cout << setprecision(1) << fixed;
+    cin >> a >> b >> c;
+    
+    cout << "MEDIA = " << setprecision(1) << (a * 2 + b * 3 + c * 5) / 10 << fixed << endl;
+}
+
+
+//******Diferença
+
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+    int a, b, c, d;
+    
+    cin >> a >> b >> c >> d;
+    
+    cout << "DIFERENCA = " << (a * b) - (c * d) << endl;
+}
+
+//******Salário
+
+#include<iostream>
+#include<iomanip>
+
+using namespace std;
+
+int main()
+{
+    int a, hours;
+    double salary;
+    
+    cin >> a >> hours >> salary;
+    
+    cout << "NUMBER = " << a << endl;
+    cout << setprecision(2) << fixed;
+    cout << "SALARY = U$ " << hours * salary << endl;
+   
+}
+
+//*****Salário com Bônus
+
+#include <iostream>
+#include <cmath>
+#include<iomanip>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    string name;
+    double sales, salary;
+    
+    getline(cin, name);
+    cin >> salary >> sales;
+    
+    double total = sales * 0.15 + salary;
+    
+    cout << setprecision(2) << fixed;
+    cout << "TOTAL = R$ " << total << endl;
+}
+
+//*******O Maior
+
+
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    int a, b, c;
+    
+    cin >> a >> b >> c;
+    
+    int maior = (a + b + abs(a - b)) / 2;
+    int maior2 = (maior + c + abs(maior - c)) / 2;
+    
+    cout << maior2 << " eh o maior" << endl;
+ 
+    
+}
+
+//******Distância Entre Dois Pontos
+
+#include <iostream>
+#include<cmath>
+#include<iomanip>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    double x1, x2, y1 , y2;
+    
+    cin >> x1 >> x2;
+    cin >> y1 >> y2;
+    
+    double distance = sqrt(pow(y1 - x1, 2) + pow(y2 - x2, 2));
+    
+    cout << setprecision(4) << fixed;
+    cout << distance << endl;
+ 
+}
+
+//*****Teste de Seleção 1
+
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    int a, b, c ,d;
+    
+    cin >> a >> b >> c >> d;
+    
+    if(b > c && d > a && c + d > a + b && c > 0 && d > 0 && a % 2 == 0)
+    {
+        cout << "Valores aceitos" << endl;
+    }
+    else
+    {
+        cout << "Valores nao aceitos" << endl;
+    }
+    
+ 
+}
+
+//******Animal
+
+
+#include<iostream>
+#include<string>
+
+using namespace std;
+
+int main()
+{
+    string a, b, c;
+    
+    getline(cin, a);
+    getline(cin, b);
+    getline(cin, c);
+    
+    if (a == "vertebrado")
+    {
+        if (b == "ave")
+        {
+            if (c == "carnivoro")
+            {
+                cout << "aguia" << endl;
+            }
+            else if (c == "onivoro")
+            {
+                cout << "pomba" << endl;
+            }
+        }
+        else if (b == "mamifero")
+        {
+            if (c == "onivoro")
+            {
+                cout << "homem" << endl;
+            }
+            else if (c == "herbivoro")
+            {
+                cout << "vaca" << endl;
+            }
+        }
+    }
+    else if (a == "invertebrado")
+    {
+        if (b == "inseto")
+        {
+            if (c == "hematofago")
+            {
+                cout << "pulga" << endl;
+            }
+            else if (c == "herbivoro")
+            {
+                cout << "lagarta" << endl;
+            }
+        }
+        else if (b == "anelideo")
+        {
+            if (c == "hematofago")
+            {
+                cout << "sanguessuga" << endl;
+            }
+            else if (c == "onivoro")
+            {
+                cout << "minhoca" << endl;
+            }
+        }
+    }
+}
+
+//******DDD
+
+
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    int x;
+    
+    cin >> x;
+    
+    switch(x)
+    {
+        case 61:
+            cout << "Brasilia" << endl;
+            break;
+        case 71:
+            cout << "Salvador" << endl;
+            break;
+        case 11:
+            cout << "Sao Paulo" << endl;
+            break;
+        case 21:
+            cout << "Rio de Janeiro" << endl;
+            break;
+        case 32:
+            cout << "Juiz de Fora" << endl;
+            break;
+        case 19:
+            cout << "Campinas" << endl;
+            break;
+        case 27:
+            cout << "Vitoria" << endl;
+            break;
+        case 31:
+            cout << "Belo Horizonte" << endl;
+            break;
+        default:
+            cout << "DDD nao cadastrado" << endl;
+            break;
+    }
+ 
+    return 0;
+}
+
+//******Mês
+
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    int x;
+    
+    cin >> x;
+    
+    switch(x)
+    {
+        case 1:
+            cout << "January" << endl;
+            break;
+        case 2:
+            cout << "February" << endl;
+            break;
+        case 3:
+            cout << "March" << endl;
+            break;
+        case 4:
+            cout << "April" << endl;
+            break;
+        case 5:
+            cout << "May" << endl;
+            break;
+        case 6:
+            cout << "June" << endl;
+            break;
+        case 7:
+            cout << "July" << endl;
+            break;
+        case 8:
+            cout << "August" << endl;
+            break;
+        case 9:
+            cout << "September" << endl;
+            break;
+        case 10:
+            cout << "October" << endl;
+            break;
+        case 11:
+            cout << "November" << endl;
+            break;
+        case 12:
+            cout << "December" << endl;
+            break;
+    }
+ 
+}
+
+//****Hello World!
+
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    cout << "Hello World!"<<endl;
+ 
+    return 0;
+}
